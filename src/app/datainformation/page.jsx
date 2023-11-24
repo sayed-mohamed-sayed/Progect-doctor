@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import HeaderD, { HeaderO } from "../header/page";
-import Footer from "../footer/page";
 
 export default function Datainformatio() {
   const [datainfo, setDataInfo] = useState([]);

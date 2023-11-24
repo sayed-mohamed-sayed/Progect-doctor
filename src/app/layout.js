@@ -1,5 +1,3 @@
-'use client'
-import GlobalState from '@/context'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Montserrat } from 'next/font/google'
@@ -8,7 +6,6 @@ const bodyfont=Montserrat({
   weight:["400" ,"700" ,"900"]
 })
 
-import Navbar from '@/compontes/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 

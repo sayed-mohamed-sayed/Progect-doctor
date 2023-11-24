@@ -3,7 +3,6 @@
 
 import Image from 'next/image';
 import * as React from 'react';
-// import HeaderD, { HeaderO } from '../doctor/header';
 function Show() {
     return (
 
