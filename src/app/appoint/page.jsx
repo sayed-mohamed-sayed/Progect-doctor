@@ -18,7 +18,7 @@ return (
 <div className='relative h-[100%] w-[100%]'>
  
 
-<div className='w-[100%]   text-center mt-12 '>
+<div className='w-[100%]   text-center '>
         
 <div className="flex flex-warb h-[80px] mb-8">
 <div className="w-[60%] h-[50px]  bg-[#1e272e] text-white absolute top-0">
