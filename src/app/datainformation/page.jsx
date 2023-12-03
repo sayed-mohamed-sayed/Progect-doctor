@@ -1,21 +1,21 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 export default function Datainformatio() {
-  const [datainfo, setDataInfo] = useState([]);
+//   const [datainfo, setDataInfo] = useState([]);
 
-  useEffect(() => {
-    getData();
+//   useEffect(() => {
+//     getData();
 
-}, []);
-const getData = async () => {
-    try {
-        const res = await fetch("http://localhost:3000/api/form/route");
-        const data = await res.json();
-        setDataInfo(data);
-    } catch (error) {
-        console.error(error);
-    }
-};
+// }, []);
+// const getData = async () => {
+//     try {
+//         const res = await fetch("http://localhost:3000/api/form/route");
+//         const data = await res.json();
+//         setDataInfo(data);
+//     } catch (error) {
+//         console.error(error);
+//     }
+// };
 
 
 
@@ -25,7 +25,7 @@ const getData = async () => {
   return (
     <>
           <div className="flex justify-center text-center flex-wrap">
-      {datainfo &&
+      {/* {datainfo &&
         datainfo.map((i, k) => (
             <div  key={k} className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
               <h1 className="text-start">Name: {i.name}</h1>
@@ -42,7 +42,83 @@ const getData = async () => {
                 <p>Date{i.data}</p>
               </div>
             </div>
-        ))}
+        ))} */}
+
+<div  className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
+              <h1 className="text-start">Name:......</h1>
+              <div className="flex justify-between">
+                <p>Numper:68970678</p>
+                <p>Age:32</p>
+              </div>
+              <div className="flex justify-between">
+                <p>low</p>
+                <p>fast</p>
+              </div>
+              <div className="flex justify-between">
+                <p>Nymper reserve:9</p>
+                <p>Date </p>
+              </div>
+            </div>
+<div  className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
+              <h1 className="text-start">Name:......</h1>
+              <div className="flex justify-between">
+                <p>Numper:68970678</p>
+                <p>Age:32</p>
+              </div>
+              <div className="flex justify-between">
+                <p>low</p>
+                <p>fast</p>
+              </div>
+              <div className="flex justify-between">
+                <p>Nymper reserve:9</p>
+                <p>Date </p>
+              </div>
+            </div>
+<div  className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
+              <h1 className="text-start">Name:......</h1>
+              <div className="flex justify-between">
+                <p>Numper:68970678</p>
+                <p>Age:32</p>
+              </div>
+              <div className="flex justify-between">
+                <p>low</p>
+                <p>fast</p>
+              </div>
+              <div className="flex justify-between">
+                <p>Nymper reserve:9</p>
+                <p>Date </p>
+              </div>
+            </div>
+<div  className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
+              <h1 className="text-start">Name:......</h1>
+              <div className="flex justify-between">
+                <p>Numper:68970678</p>
+                <p>Age:32</p>
+              </div>
+              <div className="flex justify-between">
+                <p>low</p>
+                <p>fast</p>
+              </div>
+              <div className="flex justify-between">
+                <p>Nymper reserve:9</p>
+                <p>Date </p>
+              </div>
+            </div>
+<div  className="bg-[#6195ff] p-4 text-center m-2  text-white w-[300px] rounded">
+              <h1 className="text-start">Name:......</h1>
+              <div className="flex justify-between">
+                <p>Numper:68970678</p>
+                <p>Age:32</p>
+              </div>
+              <div className="flex justify-between">
+                <p>low</p>
+                <p>fast</p>
+              </div>
+              <div className="flex justify-between">
+                <p>Nymper reserve:9</p>
+                <p>Date </p>
+              </div>
+            </div>
         </div>
     </>
   );
