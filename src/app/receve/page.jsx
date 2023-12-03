@@ -13,6 +13,7 @@ export const metadata = {
 import { useState } from "react";
 import HeaderD, { HeaderO } from "../header/page";
 import Footer from "../footer/page";
+import Image from "next/image";
 
 export default  function Appoints() {
 
@@ -78,7 +79,7 @@ return (
 
 <div className="flex justify-center items-center text-center w-[100%] m-auto ">
     <div className="w-[300px] h-[300px] ">
-        <img src="./444.png" alt="" />
+        <Image src="/444.png" alt="image" width={300} height={300} />
     </div>
     <div className="w-[60%]">
         <form>
@@ -122,6 +123,7 @@ Enter Prithday:_
 {/* <Datainformation/> */}
 
 </div>
+
 <Footer/>
 </>
 );

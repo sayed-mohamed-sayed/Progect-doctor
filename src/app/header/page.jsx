@@ -7,24 +7,24 @@ function HeaderD() {
         <div>
 <nav>
 
-<ul>
-    <div className="flex mt-2 justify-center sm:justify-center md:justify-end w-[100%] text-sm sm:text-lg font-medium sm:font-bold absolute z-10">
-        <Link href="/">
-    <li className='ml-2 sm:ml-6  cursor-pointer'>Home</li>
-        </Link>
-<Link href="receve">
+    <div >
+<ul className="flex mt-2 justify-center sm:justify-center md:justify-end w-[100%] text-sm sm:text-lg font-medium sm:font-bold absolute z-10">
+        
+    <li className='ml-2 sm:ml-6  cursor-pointer'><Link href="/">Home </Link></li>
+       
 
-    <li className='ml-2 sm:ml-6 cursor-pointer'>Appointment</li>
-</Link>
+
+    <li className='ml-2 sm:ml-6 cursor-pointer'><Link href="receve">Appointment</Link></li>
+
    
-    <Link href="/services">
-    <li className='ml-2 sm:ml-6 cursor-pointer'>Service</li>
-    </Link>
-   <Link href="/appoint">
-    <li className='ml-2 sm:ml-6 mr-2 cursor-pointer'>About</li>
-   </Link>
-    </div>
+    
+    <li className='ml-2 sm:ml-6 cursor-pointer'><Link href="/services">Service </Link></li>
+   
+   
+    <li className='ml-2 sm:ml-6 mr-2 cursor-pointer'><Link href="/appoint">About</Link></li>
+   
 </ul>
+    </div>
     </nav>
     </div>
     );
@@ -37,18 +37,18 @@ export function HeaderO() {
         <div>
 <nav>
 
-<ul>
-    <div className="flex mt-2 justify-start sm:justify-start md:justify-start w-[100%] text-sm sm:text-lg font-medium sm:font-bold text-white  absolute z-10">
-<Link href="blog">
+    <div >
+<ul className="flex mt-2 justify-start sm:justify-start md:justify-start w-[100%] text-sm sm:text-lg font-medium sm:font-bold text-white  absolute z-10">
 
-    <li className='ml-6   cursor-pointer'>Review</li>
-</Link>
-    <Link href="contact">
 
-    <li className='ml-6   cursor-pointer'>Contact Us</li>
-    </Link>
-    </div>
+    <li className='ml-6   cursor-pointer'><Link href="blog">Review</Link></li>
+
+   
+
+    <li className='ml-6   cursor-pointer'> <Link href="contact">Contact Us</Link></li>
+    
 </ul>
+    </div>
     </nav>
     </div>
     );

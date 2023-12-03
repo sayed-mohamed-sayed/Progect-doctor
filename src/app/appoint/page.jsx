@@ -1,4 +1,3 @@
-// @flow strict
 
 
 
@@ -16,7 +15,7 @@ import Footer from '../footer/page';
 import Image from 'next/image';
 function Appoint() {
 return (
-<>
+<div className='relative h-[100%] w-[100%]'>
  
 
 <div className='w-[100%]   text-center mt-12 '>
@@ -47,9 +46,9 @@ return (
 <p className='text-[#6195ff] font-medium'>TESTIMONIAL</p>
 <h1 className='text-[#1e272e] mt-2 font-bold w-[170px]' >What is Our patient Says</h1>
 </div>
-<div className="flex mt-12 justify-around flex-wrap">
+<div className="flex mt-12 justify-center flex-wrap">
 
-<div className="w-[250px] mt-2 shadow-md shadow-black p-2">
+<div className="w-[250px] mt-2 m-2 shadow-md shadow-black p-2">
 <p className='text-[rgba(0,0,0,0.67)]  mb-10 text-[15px]'>Lorem ipsum dolor sit amet,
 consectetur adipisicing elit.
 Quo blanditiis cupiditate facilis placeat,
@@ -65,7 +64,7 @@ Quo blanditiis cupiditate facilis placeat,
 
 </div>
 
-<div className="w-[250px] mt-2 shadow-md shadow-black p-2">
+<div className="w-[250px] mt-2 m-2 shadow-md shadow-black p-2">
 <p className='text-[#000000ab] mb-10 text-[15px]'>Lorem ipsum dolor sit amet,
 consectetur adipisicing elit.
 Quo blanditiis cupiditate facilis placeat,
@@ -81,7 +80,7 @@ Quo blanditiis cupiditate facilis placeat,
 
 </div>
 
-<div className="w-[250px] mt-2 shadow-md shadow-black p-2">
+<div className="w-[250px] mt-2 m-2 shadow-md shadow-black p-2">
 <p className='text-[#000000ab] mb-10 text-[15px]'>Lorem ipsum dolor sit amet,
 consectetur adipisicing elit.
 Quo blanditiis cupiditate facilis placeat,
@@ -97,7 +96,7 @@ Quo blanditiis cupiditate facilis placeat,
 
 </div>
 
-<div className="w-[250px] mt-2 shadow-md shadow-black p-2">
+<div className="w-[250px] mt-2 m-2 shadow-md shadow-black p-2">
 <p className='text-[#000000ab] mb-10 text-[15px]'>Lorem ipsum dolor sit amet,
 consectetur adipisicing elit.
 Quo blanditiis cupiditate facilis placeat,
@@ -114,7 +113,7 @@ Quo blanditiis cupiditate facilis placeat,
 </div>
 </div>
 <Footer/>
-</>
+</div>
 );
 };
 
