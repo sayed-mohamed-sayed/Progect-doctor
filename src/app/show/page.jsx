@@ -14,7 +14,7 @@ function Show() {
                 <div className="mb-2 basis-[40%]">
                     <h1 className='font-black text-xl'>Your New Smile </h1>
                     <h2 className='font-black text-xl'>Start Here</h2>
-                    <p className='text-xs font-bold w-[220px] sm:w-[250]'>Lorem ipsum dolor sit amet
+                    <p className='text-xs font-bold w-[200px] sm:w-[250]'>Lorem ipsum dolor sit amet
                         consectetur adipisicing elit.
                         Tenetur alias blanditiis
                         numquam officiis accusantium.</p>

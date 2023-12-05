@@ -76,11 +76,11 @@ return (
 <div className='w-[100%] h-auto relative'>
 
 <div className="flex flex-warb h-[80px] ">
-<div className="w-[60%] h-[560px] bg-white absolute top-0">
+<div className="w-[65%] sm:w-[60%] h-[560px] bg-white absolute top-0">
 <HeaderD />
 
 </div>
-<div className="w-[40%] h-[560px] bg-[#1e272e] absolute top-0 right-0">
+<div className="w-[35%] sm:w-[40%] h-[560px] bg-[#1e272e] absolute top-0 right-0">
 <HeaderO />
 
 </div>
