@@ -27,9 +27,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@media(max-width:450px){
+  .nav ul li{
+    font-size: medium;
+  }
+}
 
 
-@media(max-width:400px){
+@media(max-width:450px){
 
   .nav ul{
     flex-direction: column;
@@ -50,12 +55,13 @@ body {
     top: 50px;
     line-height: 25px;
     font-size: large;
+    left: 10px;
   }
   .nav-2{
     display: none !important;
   }
 }
-@media(min-width:400px){
+@media(min-width:450px){
 .non{
   display: none;
 }

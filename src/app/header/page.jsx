@@ -23,13 +23,13 @@ const [toggle,settoggle]=useState(false)
 
     <div className='nav' >
 <ul style={{height: toggle&&"100%", overflow:toggle &&"visible"}} className="flex mt-2 container font-bold justify-center sm:justify-center md:justify-end w-[100%] text-sm sm:text-lg font-medium sm:font-bold absolute z-10">
-    <li className='ml-2  sm:text-[large] sm:ml-6  cursor-pointer'><Link href="/">Home </Link></li>
-    <li className='ml-2  sm:text-[large] sm:ml-6 cursor-pointer'><Link href="receve">Appointment</Link></li>
-    <li className='ml-2  sm:text-[large] sm:ml-6 cursor-pointer'><Link href="/services">Service </Link></li>
-    <li className='ml-2  sm:text-[large] sm:ml-6 mr-2 cursor-pointer'><Link href="/appoint">About</Link></li>
+    <li className='ml-2 font-bold sm:text-[large] sm:ml-6  cursor-pointer'><Link href="/">Home </Link></li>
+    <li className='ml-2 font-bold sm:text-[large] sm:ml-6 cursor-pointer'><Link href="receve">Appointment</Link></li>
+    <li className='ml-2 font-bold sm:text-[large] sm:ml-6 cursor-pointer'><Link href="/services">Service </Link></li>
+    <li className='ml-2 font-bold sm:text-[large] sm:ml-6 mr-2 cursor-pointer'><Link href="/appoint">About</Link></li>
    <div className="non">
-   <li className='ml-2 sm:ml-6 text-[small] sm:text-[large]  cursor-pointer'><Link href="blog">Review</Link></li>
-    <li className='ml-2 sm:ml-6 text-[small] sm:text-[large]  cursor-pointer'> <Link href="contact">Contact</Link></li>
+   <li className='ml-2 font-bold sm:ml-6 text-[small] sm:text-[large]  cursor-pointer'><Link href="blog">Review</Link></li>
+    <li className='ml-2 font-bold sm:ml-6 text-[small] sm:text-[large]  cursor-pointer'> <Link href="contact">Contact</Link></li>
 
    </div>
 </ul>
