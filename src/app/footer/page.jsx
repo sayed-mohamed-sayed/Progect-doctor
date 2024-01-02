@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Footer() {
 return (
 <>
-<div className='w-[100%] bg-[#00000024]   text-start  md:m-[0px]  md:mt-4 flex justify-start md:justify-around flex-wrap relative bottom-0'>
+<div className='w-[100%] bg-[#00000024]   text-start    md:mt-4 flex justify-start md:justify-around flex-wrap relative bottom-0'>
 <div className="text-[#00000087] m-4 md:m-[0px]">
     <h1 className='text-[#6195ff] mb-4 font-bold '>Services</h1>
     <p>Emergency Dental care</p>

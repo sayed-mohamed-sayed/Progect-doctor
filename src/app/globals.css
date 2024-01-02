@@ -26,3 +26,112 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+@media(max-width:400px){
+
+  .nav ul{
+    flex-direction: column;
+    background: #1e272e;
+    width: 100%;
+    position: fixed;
+    height:0;
+    overflow:hidden;
+    transition: all 0.8s;
+    color: white;
+    top: -8px;
+    z-index: 100;
+    justify-content: start !important;
+    align-items: start;
+  }
+  .nav ul li{
+    position: relative;
+    top: 50px;
+    line-height: 25px;
+    font-size: large;
+  }
+  .nav-2{
+    display: none !important;
+  }
+}
+@media(min-width:400px){
+.non{
+  display: none;
+}
+.toggle{
+  display: none !important
+}
+}
+
+
+
+
+/* media for button  */
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: fixed;
+  width: 40px;
+  cursor: pointer;
+  display: block;
+  height: calc(4px * 3 + 11px * 2);
+  left: 15px;
+  top: 10px;
+z-index: 101;
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: calc(4px / 2);
+  background:#6195ff;
+  color: inherit;
+  opacity: 1;
+  transition: none 0.35s cubic-bezier(.5,-0.35,.35,1.5) 0s;
+}
+
+/***** Spin Animation *****/
+
+.bar--top {
+  /* bottom: calc(50% + 11px + 4px/ 2); */
+  bottom: calc(37% + 11px + 4px/ 2);
+  transition-property: bottom,transform;
+  transition-delay: calc(0s + 0.35s),0s;
+}
+
+.bar--middle {
+  /* top: calc(50% - 4px/ 2); */
+  top: calc(39% - 4px/ 2);
+  transition-property: opacity;
+  transition-delay: calc(0s + 0.35s);
+}
+
+.bar--bottom {
+  /* top: calc(50% + 11px + 4px/ 2); */
+  top: calc(15% + 11px + 4px/ 2);
+  transition-property: top,transform;
+  transition-delay: calc(0s + 0.35s),0s;
+}
+
+#checkbox:checked + .toggle .bar--top {
+  bottom: calc(50% - 4px/ 2);
+  transform: rotate(135deg);
+  transition-delay: 0s,calc(0s + 0.35s);
+}
+
+#checkbox:checked + .toggle .bar--middle {
+  opacity: 0;
+  transition-duration: 0s;
+  transition-delay: calc(0s + 0.35s);
+}
+
+#checkbox:checked + .toggle .bar--bottom {
+  top: calc(50% - 4px/ 2);
+  transform: rotate(225deg);
+  transition-delay: 0s,calc(0s + 0.35s);
+}
